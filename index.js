@@ -32,7 +32,7 @@ app.post( '/incoming-sms', ( req, res ) => {
   const { Body, From, To } = req.body;
 
   /* Do something with the data you receive here */
-
+  
   /**
   * Create the response back to Twilio. You can do stuff like send messages
   * in response here as well. Example here:
