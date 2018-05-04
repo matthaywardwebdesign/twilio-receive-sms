@@ -1,0 +1,16 @@
+{
+  "name": "twilio-receive-sms",
+  "version": "1.0.0",
+  "description": "A boilerplate for writing servers that receive Twilio SMS's",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Hayward",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "twilio": "^3.16.0"
+  }
+}
